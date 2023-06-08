@@ -1,0 +1,40 @@
+POST http://localhost:5000/
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+### este es el servicio get
+### estos son metadatos datos sobre otros datos
+GET http://localhost:5000/test
+content-type: application/json
+
+### este es el servicio get
+### estos son metadatos datos sobre otros datos
+POST  http://localhost:5000/test/3?tipo=GET&text=hola
+content-type: application/json
+
+{
+    "username":"will777",
+    "name":"fabricio",
+    "password":"123456",
+    "edad":"23"
+
+}
+
+### estos son metadatos datos sobre otros datos
+POST  http://localhost:5000/user/crear
+content-type: application/json
+
+{
+    "username":"will777",
+    "name":"diego",
+    "password":"123456",
+    "edad":"33"
+}
+
+###
+GET http://localhost:5000/user/list
+Content-Type: application/json
